@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/fernandotag.png',
     alt: 'Fernando Tagliaferro',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
