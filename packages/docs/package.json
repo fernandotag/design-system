@@ -1,6 +1,7 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@fernandotag/docs",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
@@ -8,10 +9,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@fernandotag/eslint-config": "*",
+    "@fernandotag/react": "*",
+    "@fernandotag/tokens": "*",
+    "@fernandotag/ts-config": "*",
     "@storybook/addon-a11y": "^7.4.0",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
